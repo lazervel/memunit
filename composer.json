@@ -1,0 +1,39 @@
+{
+  "name": "testunit/memunit",
+  "description": "TestUnit is PHP testing library that simplifies unit testing with an assertions.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": ["memunit", "memory", "formatter", "php"],
+  "homepage": "https://github.com/shahzadamodassir",
+  "autoload": {
+    "psr-4": {
+      "MemUnit\\": "src/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "require": {
+    "php": "^7.2 || ^8.0"
+  },
+  "funding": [
+    {
+      "type": "YouTube",
+      "url": "https://youtube.com/@shahzadamodassir"
+    },
+    {
+      "type": "Patreon",
+      "url": "https://patreon.com/shahzadamodassir"
+    },
+    {
+      "type": "Github",
+      "url": "https://github.com/shahzadamodassir"
+    },
+    {
+      "type": "Opencollective",
+      "url": "https://opencollective.com/shahzadamodassir"
+    }
+  ],
+  "minimum-stability": "stable"
+}
